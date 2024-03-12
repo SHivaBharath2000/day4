@@ -1,0 +1,28 @@
+1)Using for in loop for JSON
+var obj={"name":"siva","age":23,"phone no":9223417654,"reg no":9223181040448}
+let x=""                                                               OUTPUT siva 23 9223417654 9223181040448   
+for(var a in obj){
+  x=x+obj[a]+" "
+}
+console.log(x)
+2)JSON using create resume                                                
+var obj={"name":"siva",
+"age":23,
+"phone no":9223417654,
+"reg no":9223181040448,
+"Address":"45/5/1 bharathidasn nagar,thanthonimalai,karur",
+"qualification":"BE",
+"Experiance":"6 months",
+"Hobby":"playing chess",
+}
+console.log(obj)
+output
+{ name: 'siva',
+  age: 23,
+  'phone no': 9223417654,
+  'reg no': 9223181040448,
+  Address: '45/5/1 bharathidasn nagar,thanthonimalai,karur',
+  qualification: 'BE',
+  Experiance: '6 months',
+  Hobby: 'playing chess' }
+3)window is the main JavaScript object root, aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window.window.screen or just screen is a small information object about physical screen dimensions
